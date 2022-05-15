@@ -1,5 +1,5 @@
 # C++ working with Pointers, Vectors, Structures, and Dynamically Allocated Memory.
-In this programming assignment I am resposible to build a program with pointers, vectors, structures and dynamically allocated memory. 
+In this programming assignment I am resposible for building a program with pointers, vectors, structures and dynamically allocated memory. 
 #### Program Flow
 1. The program will read an input file named `DailySales.txt` where each line of the input file will contain the following information (there is an example of an input file below).
 
