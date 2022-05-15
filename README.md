@@ -17,3 +17,25 @@ If the `Product Id` is found in the `vector` of `pointers`, then I the `Number s
 
 3. After reaching the end of the input file, my program will write the `Product Id’s` and the total number of `items sold` (or returned) if the total number of items sold isn’t zero to a file named `SummaryDailySales.txt`.
 
+```
+Sample Input File		
+C1567B4 3
+D1668Y0 998
+C1567B4 -1
+D1668Y0 23
+M3470K1 -12
+X9718Q6 83
+C1567B4 -2
+M3470K1 -1
+A4852T2 2
+``` 
+
+```Sample Output File
+Prod ID  # Sold
+-------  ------
+D1668Y0    1021
+M3470K1     -13
+X9718Q6      83
+A4852T2       2
+---------------
+Total      1093```
